@@ -93,7 +93,7 @@ class App{
 
 			const geometry = new THREE.BufferGeometry().setFromPoints( [
 				new THREE.Vector3(0,0,0),
-				new THREE.Vector3(0,0,-1),
+				new THREE.Vector3(0,0,-1)
 			]);
 			const line = new THREE.Line(geometry);
 			line.name = 'line';
