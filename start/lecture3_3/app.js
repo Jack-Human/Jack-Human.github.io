@@ -97,7 +97,7 @@ class App{
 			]);
 			const line = new THREE.Line(geometry);
 			line.name = 'line';
-			line.scale.z = 0;
+			line.scale.z = 10;
 
 			const controllers = [];
 
